@@ -1,0 +1,119 @@
+html {
+    background: #3C3D3C;
+}
+
+.CajaBuscar .busca {
+    position:relative;
+    width: 50%;
+    height: 30px;
+    font-size: 20px;
+    left: 310px;
+    top: 90px;
+    border-radius: 10px;
+    transition: box-shadow .3s;
+}
+
+.CajaBuscar .busca:hover {
+box-shadow: 4px 7px #1a1a1a;
+}
+.CajaBuscar ::-webkit-input-placeholder{
+    text-align: center;
+}
+
+.Nelback {
+    position: relative;
+    left: 465px;
+    top: 50px;
+    font-size: 80px;
+    color:white;
+}
+
+/* panel 1 */
+
+.panel1 {
+    position: relative;
+    background: #252525;
+    top: 150px;
+    left: 200px;
+    width: 160px;
+    height: 200px;
+    transform:scale(1.0);
+    transition:transform 0.3s;
+}
+
+.panel1:hover {
+transform: scale(1.2);
+}
+
+.logotwi1 {
+    position: relative;
+    top:20px;
+    left: 30px;
+    width: 100px;
+    height: 100px;
+    
+}
+
+.circulo {
+    position:absolute;
+    top:13px;
+    left: 24px;
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 4px black solid; 
+    background:#3E3E3E;
+}
+
+.auronplay {
+    position:relative;
+    top:30px;
+    left:18px;
+}
+
+/* otro panel  */
+
+.panel2 {
+    position: relative;
+    background: #252525;
+    top: -50px;
+    left: 400px;
+    width: 160px;
+    height: 200px;
+    transform:scale(1.0);
+    transition:transform 0.3s;
+}
+
+.panel2:hover {
+transform: scale(1.2);
+}
+
+.logotwi2 {
+    position: relative;
+    top:20px;
+    left: 30px;
+    width: 100px;
+    height: 100px;
+    
+}
+
+.circulo2 {
+    position:absolute;
+    top:13px;
+    left: 24px;
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 4px black solid; 
+    background:#3E3E3E;
+}
+
+.Juan {
+    position:relative;
+    top:30px;
+    left:0px;
+}
